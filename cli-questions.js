@@ -18,7 +18,7 @@ const askCb = (q, cb) => {
   const display = `${optional ? '(opt) '.blue : ''}${text} ${defaultText}`.bold; // Text to display
 
   const data = q.bool ? // Ask for input
-    readline.keyInYN(`${display} ${'[y/n]'.green}`) : // Text
+    readline.keyInYN(`${display}`) : // Text
     readline.question(display, { hideEchoBack: q.hidden === true }); // Boolean (y/n)
 
   if (!optional && !q.default && data === '') return askCb(q, cb); // Ask again if not optional

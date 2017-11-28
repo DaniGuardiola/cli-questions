@@ -1,8 +1,8 @@
 {
   "name": "cli-questions",
-  "description": "Dead simple interactive command-line shell",
+  "description": "ALPHA Dead simple interactive command-line shell",
   "homepage": "https://github.com/daniguardiola/cli-questions",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "author": "Dani Guardiola <contact@daniguardiola.com>",
   "repository": {
     "type": "git",
